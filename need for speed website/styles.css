@@ -1,0 +1,92 @@
+
+
+.text{
+font-size: 20px;
+font-family: aerial;
+position: absolute;
+top: 20px;
+left: 20px;
+
+
+color: lightgrey;
+padding-left: 950px;
+padding-right: 20px;
+}
+
+
+.logo
+        {
+        	height: 30%;
+        	display: block;
+        	margin: auto;
+        	width: auto;
+        	z-index: 10;
+        }
+        
+        .parallax {
+        /* The image used */
+            background-image: url("front4.jpg");
+            
+        /* Set a specific height */
+          height: 100vh;
+        	width: 100%;
+          
+        /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 1;
+        }
+
+
+
+
+
+
+
+
+
+#container {
+    position:relative;
+}
+
+img1 {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+  /* Set a specific height */
+  min-height: 750px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
